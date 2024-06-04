@@ -1,0 +1,7 @@
+# data.txt
+
+19 Dec - Go to the movie
+20 Dec - Have a dinner with family
+21 Dec - Go to the birthday party
+22 Dec - Go to the dentist
+23 Dec - Finish writing a draft for blog post

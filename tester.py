@@ -1,11 +1,6 @@
-from langchain_community.llms import Ollama
+# Build a query engine from the index
+query_engine = index.as_query_engine()
 
-# Load the model with the phi3 configuration
-llm = Ollama(model='phi3')
-
-# Define a sentence to complete
-sentence =  ["The capital of Thailand is "]
-
-# Complete the sentence using the generate function
-response = llm.generate(sentence)
+# Execute a query and print the response
+response = query_engine.query('Give me my calendar.')
 print(response)
